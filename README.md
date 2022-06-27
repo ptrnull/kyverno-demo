@@ -1,14 +1,14 @@
 # Kyverno demo
 
-Kyverno is a Kyverno is a policy engine designed for Kubernetes. With Kyverno, policies are managed as Kubernetes resources and no new language is required to write policies. 
+Kyverno is a policy engine designed for Kubernetes. With Kyverno, policies are managed as Kubernetes resources and no new language is required to write policies. 
 
 This allows using familiar tools such as kubectl, git, and kustomize to manage policies.
 
 Kyverno policies can validate, mutate, and generate Kubernetes resources plus ensure OCI image supply chain security. The Kyverno CLI can be used to test policies and validate resources as part of a CI/CD pipeline.
 
-More info: https://kyverno.sh/
+More info: https://kyverno.io/
 
-This repo contains some scripts to automate a basic installation and uninstall of the Kyverno software under Kubernetes for demo testing.
+This repo contains some scripts to automate a basic installation and uninstallation of the Kyverno software under Kubernetes for demo testing purposes.
 
 It has been tested on Kubernetes and cri-o 1.24 running under Centos 8.5.
 
